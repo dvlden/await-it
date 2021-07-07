@@ -2,3 +2,4 @@
 
 # Additional per-project excludes
 dist/
+coverage/

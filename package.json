@@ -1,6 +1,6 @@
 {
   "name": "await-it",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "A wrapper for async/await calls without the need of try/catch block.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -9,7 +9,6 @@
     "dist"
   ],
   "scripts": {
-    "dev": "rollup -c -w -m inline",
     "build": "rimraf ./dist && rollup -c --environment BUILD:production",
     "test": "jest",
     "prepare": "npm run build",
