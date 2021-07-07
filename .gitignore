@@ -1,0 +1,4 @@
+# Using .gitignore_global for common excludes
+
+# Additional per-project excludes
+dist/

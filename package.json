@@ -1,0 +1,45 @@
+{
+  "name": "await-it",
+  "version": "1.0.0-alpha",
+  "description": "A wrapper for async/await calls without the need of try/catch block.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w -m inline",
+    "build": "rimraf ./dist && rollup -c --environment BUILD:production",
+    "test": "jest",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run test"
+  },
+  "homepage": "https://github.com/dvlden/await-it#readme",
+  "bugs": "https://github.com/dvlden/await-it/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvlden/await-it.git"
+  },
+  "keywords": [
+    "async/await",
+    "try/catch",
+    "wrapper"
+  ],
+  "author": {
+    "name": "Nenad Novaković",
+    "email": "n.dvlden@gmail.com",
+    "url": "https://github.com/dvlden"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "rollup": "^2.52.8",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}
