@@ -12,8 +12,8 @@
   "scripts": {
     "build": "rimraf ./dist && rollup -c --environment BUILD:production",
     "test": "jest",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm run test"
+    "prepare": "pnpm run build",
+    "prepublishOnly": "pnpm run test"
   },
   "homepage": "https://github.com/dvlden/await-it#readme",
   "bugs": "https://github.com/dvlden/await-it/issues",
