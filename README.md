@@ -28,7 +28,7 @@ const fakeReject = Promise.reject(new Error('Rejection reason...'))
 
 > Without TypeScript
 ```js
-import { it } from 'await-it'
+import { it } from '@dvlden/await-it'
 
 (async () => {
   const [res, err] = await it(fakeResolve);
@@ -49,7 +49,7 @@ import { it } from 'await-it'
 
 > With TypeScript
 ```ts
-import { it } from 'await-it'
+import { it } from '@dvlden/await-it'
 
 (async () => {
   interface User {
@@ -69,8 +69,8 @@ import { it } from 'await-it'
 
 ```js
 // Import as CommonJS
-const { it } = require('await-it')
+const { it } = require('@dvlden/await-it')
 
 // Import as ESM 
-import { it } from 'await-it'
+import { it } from '@dvlden/await-it'
 ```
