@@ -9,6 +9,7 @@ This module attempts to solve that nesting hell and instead provide clean and fl
 
 ### Installation _(pick one)_
 - `npm i await-it`
+- `pnpm i await-it`
 - `yarn add await-it`
 
 <br>
