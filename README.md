@@ -8,9 +8,9 @@ This module attempts to solve that nesting hell and instead provide clean and fl
 <br>
 
 ### Installation _(pick one)_
-- `npm i await-it`
-- `pnpm i await-it`
-- `yarn add await-it`
+- `npm i @dvlden/await-it`
+- `pnpm i @dvlden/await-it`
+- `yarn add @dvlden/await-it`
 
 <br>
 
