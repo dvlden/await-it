@@ -1,5 +1,3 @@
-# Using .gitignore_global for common excludes
-
-# Additional per-project excludes
-dist/
-coverage/
+node_modules
+dist
+coverage
