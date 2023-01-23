@@ -1,6 +1,6 @@
 {
   "name": "@dvlden/await-it",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A wrapper for async/await calls without the need of try/catch block.",
   "keywords": [
     "async/await",
